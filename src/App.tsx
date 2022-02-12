@@ -1,8 +1,8 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import { routes } from "./resources/constant";
-import Layout from "./components/layouts/Layout";
+import { routes } from "resources/constant";
+import Layout from "components/layouts";
 
 const App: React.FC = () => {
   return (
